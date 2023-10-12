@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(to right, #4b6cb7, #182848);
+}
+.app-container {
+  max-width: 80%;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.app-info .head {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.progress {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  display: none;
+}
+.progress .bar{
+  width: 70%;
+  height: 12px;
+  display: flex;
+  background-color: rgba(33, 85, 205, 0.2);
+  position: relative;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.progress .bar .prog {
+  background-color: #2155CD;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.progress .bar .number {
+  position: absolute;
+  left: 1px;
+  top: 15px;
+  font-size: 14px;
+  color: #777;
+}
+.progress .countdown {
+  box-shadow: 0 0 8px #eee;
+  padding: 10px 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.question h2 {
+  margin-bottom: 10px;
+}
+.answers .answer input {
+  display: none;
+}
+.answers .answer input:checked + label {
+  color: #fff;
+  background-color: #4b6cb7;
+}
+.answers .answer label {
+  box-shadow: 0 0 5px #eee;
+  display: block;
+  width: 55%;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.answers .answer label:hover {
+  color: #fff;
+  background-color: #4b6cb7;
+}
+.btn {
+  display: block;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+  width: 150px;
+  padding: 10px 20px;
+  margin: 30px auto 0;
+  letter-spacing: 2px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #2155CD;
+  transition: 0.3s;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.btn:hover {
+  background-color: #093db7;
+}
+.next {
+  display: none;
+}
+.results .perfect{
+  font-size: 18px;
+  font-weight: bold;
+  color: #2155CD;
+}
+.results .good{
+  font-size: 18px;
+  font-weight: bold;
+  color: green;
+}
+.results .bad{
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+}
+/* media Query -- Responsive */
+@media (max-width: 767px) {
+  .app-container {
+    margin: 20px auto;
+  }
+  .progress .bar{
+    width: 60%;
+  }
+  .progress .bar .number,
+  .progress .countdown {
+    font-size: 12px;
+  }
+  .app-info .head {
+    font-size: 1.3rem;
+  }
+  .question h2 {
+    font-size: 1.1rem;
+  }
+  .answers .answer label {
+    width: 90%;
+    font-size: 15px;
+  }
+  .next {
+    width: 100px;
+  }
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "question": "How can a datatype be declared to be a constant type?",
+    "answers": ["var", "const", "let", "constant"],
+    "rightAnswer": "const"
+  },
+  {
+    "question": "Which of the following methods can be used to display data in some form using Javascript?",
+    "answers": [
+      "document.write()",
+      "window.alert()",
+      "console.log()",
+      "All of the above"
+    ],
+    "rightAnswer": "All of the above"
+  },
+  {
+    "question": "What is the use of the &ltnoscript&gt tag in Javascript?",
+    "answers": [
+      "Clears all cookies and cache",
+      "the contents are displayed by non-JS based browsers",
+      "Clear LocalStorage",
+      "None of the above"
+    ],
+    "rightAnswer": "the contents are displayed by non-JS based browsers"
+  },
+  {
+    "question": "The 'function' and 'var' are known as:",
+    "answers": [
+      "Data types",
+      "Declaration Statements",
+      "Keywords",
+      "Prototypes"
+    ],
+    "rightAnswer": "Declaration Statements"
+  },
+  {
+    "question": "Which of the following given functions of the Number Object formats a number with a different number of digits to the right of the decimal?",
+    "answers": [
+      "toExponential()",
+      "toPrecision()",
+      "toFixed()",
+      "toLocaleString()"
+    ],
+    "rightAnswer": "toFixed()"
+  },
+  {
+    "question": "Which of the following function of the String object returns the character in the string starting at the specified position via the specified number of characters?",
+    "answers": ["split()", "substr()", "slice()", "search()"],
+    "rightAnswer": "substr()"
+  },
+  {
+    "question": "In JavaScript the x===y statement implies that:",
+    "answers": [
+      "Both x and y are equal in value, type and reference address as well.",
+      "Both are x and y are equal in value only.",
+      "Both are equal in the value and data type.",
+      "Both are not same at all."
+    ],
+    "rightAnswer": "Both are equal in the value and data type."
+  },
+  {
+    "question": "Which one of the following is not a keyword:",
+    "answers": ["if", "with", "debugger", "use strict"],
+    "rightAnswer": "use strict"
+  },
+  {
+    "question": "Which one of the following is an ternary operator:",
+    "answers": ["-", "+", ":", "?"],
+    "rightAnswer": "?"
+  },
+  {
+    "question": "In a case, where the value of the operator is NULL , the typeof returned by the unary operator is___.",
+    "answers": ["object", "string", "boolean", "undefined"],
+    "rightAnswer": "object"
+  }
+]
